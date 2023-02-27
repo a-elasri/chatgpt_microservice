@@ -22,3 +22,11 @@ The AnswerEntity represents the answer returned by the ChatGPT API. It has field
 ### CallEntity
 
 The CallEntity represents a call to the ChatGPT API. It has fields such as model, prompt, max_tokens, and temperature which provide the parameters to be used for generating a response from the API.
+
+![image](https://user-images.githubusercontent.com/80216049/221704548-4bb8fc7f-c068-49dc-863b-f85e108e6cd5.png)
+
+### ChoiceEntity
+
+The ChoiceEntity represents a single possible choice of response returned by the ChatGPT API. It has fields such as text, index, logprobs, and finish_reason which provide information about the content and likelihood of the response.
+
+![image](https://user-images.githubusercontent.com/80216049/221704913-f2026d3f-735b-432c-9aa2-41d7521746c7.png)
