@@ -8,3 +8,7 @@ This report outlines the design and implementation of the microservice, includin
 Overall, the microservice provides a useful and scalable solution for answering user questions and storing the results in a persistent format, leveraging the power of AI and cloud technologies to enhance user experience and data management.
 
 ![image](https://user-images.githubusercontent.com/80216049/221702998-537cdd01-34a5-4153-8345-dd5110539baf.png)
+
+## Entities 
+
+The entities in a software system represent the key components and data structures that enable the system to function properly. In this project, there are four main entities that play important roles in the microservice that interacts with the ChatGPT API.
