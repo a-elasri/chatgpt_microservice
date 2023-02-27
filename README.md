@@ -96,3 +96,13 @@ Finally, we define the ENTRYPOINT instruction, which specifies the command that 
 
 
 ![WhatsApp Image 2023-02-27 at 23 54 52](https://user-images.githubusercontent.com/80216049/221711069-d02eaee7-4a0a-45f2-bbb2-84a3b1a73719.jpeg)
+
+### run container that implement the microservice
+
+![WhatsApp Image 2023-02-28 at 00 09 58](https://user-images.githubusercontent.com/80216049/221711329-ae698682-9c20-4447-8b07-e41a8fd99a2b.jpeg)
+
+the container is runinig
+
+![WhatsApp Image 2023-02-28 at 00 10 14](https://user-images.githubusercontent.com/80216049/221711474-aefa10b1-dfa7-4efe-8c8e-595eebe9605c.jpeg)
+
+
