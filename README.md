@@ -12,3 +12,13 @@ Overall, the microservice provides a useful and scalable solution for answering 
 ## Entities 
 
 The entities in a software system represent the key components and data structures that enable the system to function properly. In this project, there are four main entities that play important roles in the microservice that interacts with the ChatGPT API.
+
+### AnswerEntity
+
+The AnswerEntity represents the answer returned by the ChatGPT API. It has fields such as id, object, created, and model which provide metadata about the response. It also has a list of ChoiceEntity objects which represent the different possible answers returned by the API. Additionally, it contains a UsageEntity object which gives information about the usage of the API during the response generation process.
+
+![image](https://user-images.githubusercontent.com/80216049/221704070-35a26ac6-7c0d-4fc0-99fb-243c8fd1bd1a.png)
+
+### CallEntity
+
+The CallEntity represents a call to the ChatGPT API. It has fields such as model, prompt, max_tokens, and temperature which provide the parameters to be used for generating a response from the API.
