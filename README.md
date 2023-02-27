@@ -6,3 +6,5 @@ The purpose of this project is to create a Java microservice that communicates w
 This report outlines the design and implementation of the microservice, including the technologies used, the architecture, and the individual components such as the controller, service, repository, and entity classes. We also discuss how the microservice communicates with the ChatGPT API, including the request format and authentication requirements. Finally, we present the results of testing the microservice, including its performance and functionality.
 
 Overall, the microservice provides a useful and scalable solution for answering user questions and storing the results in a persistent format, leveraging the power of AI and cloud technologies to enhance user experience and data management.
+
+![image](https://user-images.githubusercontent.com/80216049/221702998-537cdd01-34a5-4153-8345-dd5110539baf.png)
