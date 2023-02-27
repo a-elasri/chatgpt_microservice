@@ -74,6 +74,25 @@ This class is a Spring REST controller that handles HTTP requests for the ChatGP
 
 ![image](https://user-images.githubusercontent.com/80216049/221707704-14647c03-2d29-4aa6-891d-d3c6b793a829.png)
 
+###  Unit/integration tests. 
+
+The test checks that a file was created with the specified file path, and that this file contains the prompt and expected answer text in CSV format. It then closes the file and deletes it.
+
+Overall, this test verifies that the sendPrompt() method is correctly creating a QADto object with the expected prompt and answer, and is correctly writing this data to a CSV file.
+
+![image](https://user-images.githubusercontent.com/80216049/221712804-5ac8e940-fc8f-4a03-811a-1d77a9f55005.png)
+
+![image](https://user-images.githubusercontent.com/80216049/221712879-de466983-bcd9-4851-b4ba-15e839f3007e.png)
+
+
+This is a JUnit test written in Java to test the writeToCSV() method of a ChatGPTService class.
+
+The test sets up some initial data, such as a file path and a QADto instance containing a question and an answer. The writeToCSV() method is then called with these arguments, which should write the question and answer to a CSV file.
+
+The test checks that the file was created by verifying that it exists using assertTrue(file.exists()). It then reads the contents of the file using a BufferedReader, and checks that the header row contains the expected column names ("Question" and "Answer") and that the data row contains the expected values for the question and answer fields.
+
+![image](https://user-images.githubusercontent.com/80216049/221713405-ce051091-6708-40d8-9dde-865751c416f0.png)
+
 ## Dockerization of microservice
 
 Dockerization is the process of packaging a microservice application and its dependencies into a Docker image. The Docker image can then be deployed to any environment that has Docker installed, making the application easily portable and consistent across different environments.
@@ -106,3 +125,4 @@ the container is runinig
 ![WhatsApp Image 2023-02-28 at 00 10 14](https://user-images.githubusercontent.com/80216049/221711474-aefa10b1-dfa7-4efe-8c8e-595eebe9605c.jpeg)
 
 
+![WhatsApp Image 2023-02-28 at 00 29 45](https://user-images.githubusercontent.com/80216049/221713611-81498a82-5457-47cd-aeb8-e19c08485499.jpeg)
