@@ -1,0 +1,5 @@
+"Question;Answer
+what is jenkins!;Jenkins is an open source automation server written in Java. It helps to automate the non-human part of the software development process, with continuous integration and facilitating technical aspects of continuous delivery. It is a server-based system that runs in servlet containers such as Apache Tomcat. Jenkins can be used to build and test software projects continuously, making it easier to integrate changes to the project and making it easier for developers to regularly release their software.
+"
+"what is jenkins!;Jenkins is an open source automation server used to accelerate the software delivery process. It is a server-based system that runs in the web application server and allows developers to automatically build, test, and deploy their code. Jenkins can be used to automate the different stages of a project, such as continuous integration and continuous delivery.
+"
