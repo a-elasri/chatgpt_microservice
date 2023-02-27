@@ -73,3 +73,26 @@ This class is a Spring REST controller that handles HTTP requests for the ChatGP
 ## File.csv
 
 ![image](https://user-images.githubusercontent.com/80216049/221707704-14647c03-2d29-4aa6-891d-d3c6b793a829.png)
+
+## Dockerization of microservice
+
+Dockerization is the process of packaging a microservice application and its dependencies into a Docker image. The Docker image can then be deployed to any environment that has Docker installed, making the application easily portable and consistent across different environments.
+
+### Dockerfile
+
+![image](https://user-images.githubusercontent.com/80216049/221709761-131b5cf5-b403-41b5-a8c4-a2decad6ee50.png)
+
+we are using the OpenJDK 17 Alpine Linux base image, which is a lightweight image that includes the Java Runtime Environment. We are exposing port 8081, which is the port on which the microservice application will listen for incoming requests. We are also using an ARG instruction to specify the name and location of the executable JAR file for the microservice application, which is then copied to the image using the ADD instruction.
+
+Finally, we define the ENTRYPOINT instruction, which specifies the command that will be run when the container starts. In this case, the command will run the Java executable JAR file using the java command with the -jar option and passing the path to the app.jar file as an argument. This will start the microservice application and make it available on port 8081.
+
+### CREATE .JAR
+
+![WhatsApp Image 2023-02-28 at 00 02 26](https://user-images.githubusercontent.com/80216049/221710825-7eb354ca-4d02-4e67-a209-e15d12432f45.jpeg)
+
+### build dockerFile
+
+![WhatsApp Image 2023-02-28 at 00 05 30](https://user-images.githubusercontent.com/80216049/221711045-d045532f-2cc4-4213-9d07-18274b090da7.jpeg)
+
+
+![WhatsApp Image 2023-02-27 at 23 54 52](https://user-images.githubusercontent.com/80216049/221711069-d02eaee7-4a0a-45f2-bbb2-84a3b1a73719.jpeg)
